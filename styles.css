@@ -3,7 +3,7 @@
    padding: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: 'Roboto', sans-serif;
    text-decoration: none;
    border: none;
    outline: none;
@@ -270,7 +270,7 @@ span{
       font-size: 4rem;
     }
    .section{
-        min-height: 30vh;
+        /* min-height: 30vh; */
         padding: 2rem 3% 0.5rem;
     }
     .header{
@@ -306,12 +306,10 @@ span{
         font-size: 1rem;
         color: var(--text-color);
         display: none;
-    }
-    
-  
+    } 
     .home-img img{
-        width: 50vw;
-        height: 30vh;
+        width: 30vw;
+        height: 20vh;
     }
     .home-content p{
         font-size: 0.5rem;
